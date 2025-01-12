@@ -1,0 +1,19 @@
+{
+  "name": "tea-manager",
+  "version": "1.0.0",
+  "description": "this is my first ever express app",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node CRUD.js",
+    "dev" : "nodemon CRUD.js"
+  },
+  "author": "rohit saundalkar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
